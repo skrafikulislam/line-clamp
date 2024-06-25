@@ -1,0 +1,8 @@
+.carousal-text {
+  max-height: 3em; /* Adjust the height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+}
